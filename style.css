@@ -1,9 +1,14 @@
     * {
-        margin: 10px;
+        margin: 5px;
         padding: 0px;
         box-sizing: border-box;
-    }
 
+    }
+    
+    body {
+        font-family: 'Azeret Mono', sans-serif;
+        color: #0D1321;
+    }
     .navbar {
         background-color: #ffffff;
         display: flex;
@@ -22,14 +27,18 @@
     .download-button {
         background-color: transparent;
         color: #0D1321;
-        font-family: 'Azeret Mono', monospace;
+        font-family: 'Azeret Mono SemiBold', monospace;
         font-size: 20px;
         padding: 10px 20px;
         border: 1px solid #0D1321;
         text-decoration: none;
         display: inline-block;
     }
-
+    .banner-content {
+        width: 75%; 
+        text-align: center;
+        margin: 0 auto; 
+      }
     .banner {
         background-image: url('./assets/Hero-bg.png');
         background-size: cover;
@@ -38,7 +47,7 @@
     }
 
     .banner-title {
-        font-family: 'Azeret Mono', monospace;
+        font-family: 'Azeret Mono ExtraBold', monospace;
         font-size: 48px;
         color: #0D1321;
         margin-bottom: 20px;
@@ -59,4 +68,58 @@
         padding: 10px 20px;
         border: none;
         cursor: pointer;
+        
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-title {
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .main-description {
+        font-size: 16px;
+        text-align: center;
+    }
+    .section {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .text-content {
+        flex: 1;
+        padding: 20px;
+    }
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .description {
+        font-size: 16px;
+    }
+    .button {
+        border: 1px solid #0D1321;
+        padding: 10px 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .button-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
