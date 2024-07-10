@@ -98,6 +98,9 @@ body {
 .section {
     display: flex;
     margin-bottom: 40px;
+    width: 100%; 
+    max-width: 1140px; 
+    margin: 0 auto; 
 }
 
 .section:nth-child(even) {
@@ -119,7 +122,7 @@ body {
 }
 
 .title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -154,10 +157,123 @@ body {
 }
 
 .inspiration-title {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
 .inspiration-description {
     margin-bottom: 30px;
 }
+
+.target {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box; 
+    
+
+
+}
+.target-description {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card1 {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff6fa; /* HTML card color */
+    color: #0D1321;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card1 p {
+    margin-bottom: 15px;
+}
+.card1 a {
+    color: #0D1321;
+    text-decoration: underline; 
+    font-weight: bold; 
+    text-size-adjust: 10px;
+}
+.card1 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card2 {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f2f6fe; 
+    color: #0D1321;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card2 p {
+    margin-bottom: 15px;
+}
+.card2 a {
+    color: #0D1321;
+    text-decoration: underline; 
+    font-weight: bold; 
+    text-size-adjust: 10px;
+}
+.card2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card3 {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fffdf2; /* HTML card color */
+    color: #0d1321;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card3 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card3 p {
+    margin-bottom: 15px;
+}
+.card3 a {
+    color: #0D1321;
+    text-decoration: underline; 
+    font-weight: bold; 
+    text-size-adjust: 10px;
+}
+.card3 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
